@@ -92,7 +92,10 @@ function startHeartAnimation() {
 	};
 })(jQuery);
 
-
+function timeElapse(date){
+		$("#elapseClock").html(result);
+}
+	
 function showMessages() {
 	adjustWordsPosition();
 	$('#messages').fadeIn(5000, function() {
